@@ -1,5 +1,5 @@
 check_updates=1
-command_stt="bing"
+command_stt="LinSTT"
 conversation_mode=true
 dictionary="stt_engines/pocketsphinx/jarvis-dictionary.dic"
 gain="0"
@@ -13,7 +13,7 @@ phrase_failed="This command has returned an error"
 phrase_triggered=""
 phrase_welcome="Hello"
 phrase_misunderstood="I did not understand"
-language="en_GB"
+language="fr_FR"
 language_model="stt_engines/pocketsphinx/jarvis-languagemodel.lm"
 min_noise_duration_to_start="0.1" # default 0.1
 min_noise_perc_to_start="1%" # default 1%

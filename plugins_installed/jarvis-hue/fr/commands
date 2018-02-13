@@ -1,0 +1,5 @@
+*LUMIERE*A ([^ %]+)*==say "$(python ./plugins_installed/jarvis-hue/api/ligths.py ${language:0:2} $HUEIP "$mapWordLigth" brightness "bureau" "(1)")"
+*LUMIERE*EN (*)==say "$(python ./plugins_installed/jarvis-hue/api/ligths.py ${language:0:2} $HUEIP "$mapWordLigth" "hue" "bureau" "$mapColor" "(1)")"
+*ALLUME*LUMIERE==say "$(python ./plugins_installed/jarvis-hue/api/ligths.py ${language:0:2} $HUEIP "$mapWordLigth" "on" "bureau")"
+*ETEIN*LUMIERE==say "$(python ./plugins_installed/jarvis-hue/api/ligths.py ${language:0:2} $HUEIP "$mapWordLigth" "off" "bureau")"
+
