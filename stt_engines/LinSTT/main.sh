@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IP_SERVER=54.36.103.34
+IP_SERVER="$(cat $PWD/config/linstt_api_key)"
 
 _LinSTT_transcribe () {
 	# envoi l'audio file a kaldi_gstreamer et recupere la transcription
