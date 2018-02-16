@@ -22,4 +22,4 @@ done
 
 cd ..
 ./jarvis.sh -u
-cd config-personal
+cd linto_config
