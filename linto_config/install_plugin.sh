@@ -24,3 +24,5 @@ cd ..
 ./jarvis.sh -u
 cd linto_config
 mv ../assets/linto/ ../plugins_installed/jarvis-face/faces
+
+mv config_linto/* ../config/
